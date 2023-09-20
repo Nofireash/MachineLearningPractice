@@ -38,4 +38,5 @@ print(f'测试集精确度：{accuracy_score(y_test, y_test_pre)}')
 
 plt.figure(figsize=(8, 6))
 plot_tree(cart_tree)
+
 plt.show()
